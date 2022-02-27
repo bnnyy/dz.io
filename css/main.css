@@ -1,0 +1,133 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+p {
+	line-height: 1.7em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+background: rgba(78,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 100px;
+padding-bottom: 145px;
+color: #fff;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 152px;
+	width: 600px;
+}
+.title {
+	font-size: 37px;
+}
+.title span {
+   font-size: 59px;	
+}
+.intro {
+	margin-bottom: 45px;
+	width: 400px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	width: 222px;
+	padding: 18px 28px;
+	text-align: center;
+	text-decoration: none;
+
+}
+.btn:hover {
+background: #d5b01d;
+text-replace: all 0.5s easy;
+}
+.desktop {
+	margin-top: 65px;
+}
+.container h2 {
+	text-align: center;
+	margin-top: 110px;
+	font-size: 30px;
+	padding-bottom: 120px;
+	letter-spacing: 0.9px;
+}
+.skills {
+	display: flex;
+	justify-self: space-between;
+}
+.skill-title {
+	font-size: 19px;
+	margin-top: 90px;
+}
+
+.skill {
+	background: url('../img/icon1.jpg') no-repeat top;
+	width: 300px;
+	text-align: center;
+}
+.skill2 {
+	background: url('../img/icon2.jpg') no-repeat top;
+	width: 300px;
+	text-align: center;
+}   
+.skill3 {
+	background: url('../img/icon3.jpg') no-repeat top;
+	width: 300px;
+	text-align: center;
+}   
+.data {
+	background: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 100px;
+}
+.form {
+	align-self: center;
+	margin-top: 60px;
+}
+input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: Open Sans;
+	height: 48px;
+	padding-left: 25px;
+}
+.btn-form {
+	border:0;
+}
+.footer {
+	background: #164d7a;
+	padding: 64px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
